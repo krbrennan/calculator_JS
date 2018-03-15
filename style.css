@@ -1,0 +1,42 @@
+#main {
+  display: flex;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.result {
+  align-self: center;
+}
+
+input {
+  order: 1
+  flex-grow: 3;
+  flex-direction: row;
+  width: 200%;
+  text-align: center;
+  align-self: center;
+}
+input:hover {
+  background: #eee;
+}
+
+button {
+  align-self: center;
+  width: 150%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  order: 3;
+  justify-content: center;
+  align-content: space-around;
+  padding: 10px;
+  margin: 1px 0px;
+}
+
+button:hover{
+  background: #ddd;
+}
